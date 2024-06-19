@@ -2,7 +2,7 @@
 <root version="3.0">
 	<calendar>
 		<base static="true">
-			<Example1>
+			<stardate>
 				<name type="string">Stardate</name>
 				<setting type="string">Any</setting>
                 <dayformat type="string">stardate</dayformat>
@@ -61,7 +61,7 @@
                         <name type="string">9 kilodays</name>
                     </period10>
 				</periods>
-			</Example1>
+			</stardate>
 		</base>
 	</calendar>
 </root>
