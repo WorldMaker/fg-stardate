@@ -4,7 +4,7 @@ function onInit()
 end
 
 function StardateDisplayDay(nDay)
-    return string.format("%02d", nDay - 1)
+    return string.format("%01.1f", (nDay - 1) / 10)
 end
 
 function StardateDisplayStardate(sEpoch, nYear, nMonth, nDay, bAddWeekDay, bShortOutput)
