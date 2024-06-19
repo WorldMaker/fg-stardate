@@ -5,6 +5,8 @@
 			<Example1>
 				<name type="string">Stardate</name>
 				<setting type="string">Any</setting>
+                <dayformat type="string">stardate</dayformat>
+                <dateformat type="string">stardate</dateformat>
 				<lunarweek>
 					<day1 type="string">0</day1>
 					<day2 type="string">1</day2>
