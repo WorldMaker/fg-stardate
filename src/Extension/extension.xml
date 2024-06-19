@@ -4,10 +4,10 @@
 	<properties>
 		<name>Stardate</name>
 		<version>1.0</version>
-		<author>wmrekam</author>
+		<author>Max Battcher</author>
 		<ruleset>Any</ruleset>
 		<description>
-			
+			Formats Stardates for the Simple Stardate Calendar
 		</description>
 	</properties>
 	<base>
