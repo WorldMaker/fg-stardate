@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root version="3.0">
+	<calendar>
+		<base static="true">
+			<Example1>
+				<name type="string">Stardate</name>
+				<setting type="string">Any</setting>
+				<lunarweek>
+					<day1 type="string">0</day1>
+					<day2 type="string">1</day2>
+					<day3 type="string">2</day3>
+					<day4 type="string">3</day4>
+					<day5 type="string">4</day5>
+					<day6 type="string">5</day6>
+					<day7 type="string">6</day7>
+                    <day8 type="string">7</day8>
+                    <day9 type="string">8</day9>
+                    <day10 type="string">9</day10>
+				</lunarweek>
+				<periods>
+					<period1>
+						<days type="number">100</days>
+						<name type="string">0 kilodays</name>
+					</period1>
+					<period2>
+						<days type="number">100</days>
+						<name type="string">1 kilodays</name>
+					</period2>
+					<period3>
+						<days type="number">100</days>
+						<name type="string">2 kilodays</name>
+					</period3>
+					<period4>
+						<days type="number">100</days>
+						<name type="string">3 kilodays</name>
+					</period4>
+					<period5>
+						<days type="number">100</days>
+						<name type="string">4 kilodays</name>
+					</period5>
+					<period6>
+						<days type="number">100</days>
+						<name type="string">5 kilodays</name>
+					</period6>
+					<period7>
+						<days type="number">100</days>
+						<name type="string">6 kilodays</name>
+					</period7>
+                    <period8>
+                        <days type="number">100</days>
+                        <name type="string">7 kilodays</name>
+                    </period8>
+                    <period9>
+                        <days type="number">100</days>
+                        <name type="string">8 kilodays</name>
+                    </period9>
+                    <period10>
+                        <days type="number">100</days>
+                        <name type="string">9 kilodays</name>
+                    </period10>
+				</periods>
+			</Example1>
+		</base>
+	</calendar>
+</root>
