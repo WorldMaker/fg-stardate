@@ -1,0 +1,24 @@
+name: Publish
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+    
+      - name: Build project
+        run: .\Build-Project.ps1
+        shell: pwsh
+
+      - name: Publish to release
+        run: |
+          gh release upload ${{ github.event.release.tag_name }} dist/* --clobber
